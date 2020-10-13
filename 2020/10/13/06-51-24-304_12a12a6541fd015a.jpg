@@ -1,0 +1,817 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="Events">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9,10,11" />
+    <META NAME="Description" CONTENT="Register for Microsoft Events ">
+    <META NAME="Keywords" CONTENT="Microsoft Event details for target audience, Business Professionals, Developers, Educators, Government, IT Professionals, Microsoft Partners, Students related to Microsoft Worldwide Partner Conference (WPC), Microsoft Build Developer Conference, Microsoft Ignite, Microsoft Azure, Microsoft Dynamics Events, Events related to Microsoft Developer Tools, Microsoft Enterprise solutions events, Microsoft Office Events, Microsoft Server and Management Events , Microsoft Surface Events, Microsoft Windows Events">
+    <META NAME="copyright" content="Microsoft">
+    <META NAME="robots" content="follow">
+    <META http-equiv="pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href='/'>
+    <title>Microsoft Events</title>
+    <link rel="shortcut icon" href="//www.microsoft.com/favicon.ico?v2">
+    
+    <script id="bingMapScript" type='text/javascript' async defer></script>
+    <!--[if IE 9]>
+    <script src="//cdn.rawgit.com/jpillora/xdomain/0.7.4/dist/xdomain.min.js"></script>
+    <script>
+      xdomain.slaves({
+        'https://geteventsservice.one.microsoft.com': '/proxy.html'
+      });
+    </script>
+    <![endif]-->
+    
+<link href="/Content/static/css/bundle?v=6sWL2-fP1p-Yh4MMigBLucKPlEog-SAj_5fgVnkSwy41" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/66-c0128b/e1-61d473/a2-fc5898/23-46771c/36-e24010/d4-3219f9/17-44e6c2/f7-8506ab?ver=2.0" type="text/css" media="all" /><link rel='stylesheet' href='https://statics-marketingsites-eus-ms-com.akamaized.net/statics/override.css?c=7' type='text/css' />
+    <script>
+        window.bmKey = 'AjoWt3CQqY8rT6Yi8zOAnQN7Jn7pNKWwU9AB6UBd4b9xLKNfq2HvkB11WedrCvVv';
+        window.returnBaseUrl = 'https://events.microsoft.com';
+        window.apiBaseUri = 'https://geteventsservice.one.microsoft.com';
+        window.apiToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImtnMkxZczJUMENUaklmajRydDZKSXluZW4zOCIsImtpZCI6ImtnMkxZczJUMENUaklmajRydDZKSXluZW4zOCJ9.eyJhdWQiOiJodHRwczovL2dldGV2ZW50c3NlcnZpY2Uub25lLm1pY3Jvc29mdC5jb20vZ2V0ZXZlbnRzZXJ2aWNlIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvNzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3LyIsImlhdCI6MTYwMjU0NzY3MCwibmJmIjoxNjAyNTQ3NjcwLCJleHAiOjE2MDI2MzQzNzAsImFpbyI6IkUyUmdZT0Q1dW5PeXdLSlhHK2F0ZlNGZ0V2bkhHQUE9IiwiYXBwaWQiOiJkNGY3MjlhYy0zNDM4LTQ4NmYtOTc5Yi1jOGQ4YWZjNTVhMGUiLCJhcHBpZGFjciI6IjIiLCJpZHAiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC83MmY5ODhiZi04NmYxLTQxYWYtOTFhYi0yZDdjZDAxMWRiNDcvIiwib2lkIjoiZDk5MmU4Y2MtYjBjYi00YTE5LTljYmItYjZhNjE5MTZiMDQ2IiwicmgiOiIwLkFSb0F2NGo1Y3ZHR3IwR1JxeTE4MEJIYlI2d3A5OVE0Tkc5SWw1dkkyS19GV2c0YUFBQS4iLCJzdWIiOiJkOTkyZThjYy1iMGNiLTRhMTktOWNiYi1iNmE2MTkxNmIwNDYiLCJ0aWQiOiI3MmY5ODhiZi04NmYxLTQxYWYtOTFhYi0yZDdjZDAxMWRiNDciLCJ1dGkiOiJZTDAxMEtwRWRreUxIMDRETWFOWkFBIiwidmVyIjoiMS4wIn0.qeIv4DLcxueFBRtNNOKyrz3LKc7giX9v_Y5bMtQkfb-hVdv2j8MPezMN9rKacs9kjUlpZUdOEDaK7_GG6NXo0ALjzPds8Oed-_p-_9H0zg9C2T-ijLolXAwGwigUkEjE_t4-7Lf56RfZpJ0Y2FPKOgrRGdgBscVlVz--1RQvIgjVHjkS57S57orybLms_sNLLUhECbONwItmxI3jhNoSJpYHE7aC1tVYmUCszKeiFF9nww5ensdt5dHEKSnwoeyCBVqrQD_qXi3ciNz14ct36rP0FemeJZP2hUzWRVR50ek96yk8v7EsfnmdSNXDeZY9iJph-W52cEsYea3LWNwJZw';
+        window.appInsightsKey = '057c06bb-4330-4c35-8ac8-5e50e4670773';
+        window.appInstance = '123d9324-2500-4c33-9852-6985eeeb147a';
+        window.adminBaseUri = 'https://meadminsevice.azurewebsites.net';
+        
+        window.EnvironmentName = 'Prod';
+        window.ServiceOffering = 'Commercial Sales and Marketing';
+        window.ServiceLine = 'Marketing Automation';
+        window.Service = 'Marketing Events';
+        window.ComponentName = 'Modern Events and MPN Signin';
+        window.ComponentId = 'e32e95a2-18e4-4d45-b32c-7eaedccea09a';
+        window.IctoId = '11770';
+        window.MicrosoftLogoUrl = 'https://moderneventsimages.azureedge.net/images/Microsoft-Logo.png';
+        window.ErrorMessageIcon = 'https://moderneventsimages.azureedge.net/images/errormessage_icon.gif';
+        window.HttpMessageIcon = 'https://moderneventsimages.azureedge.net/images/httpmessage_icon.gif';
+        window.Image4Icon = 'https://moderneventsimages.azureedge.net/images/image4.png';
+        window.FooterLogo = 'https://moderneventsimages.azureedge.net/images/ms_footerlogo_symbol.png';
+        //Adding for sitefeedback and RSS icons
+        window.FeedbackIcon = 'https://moderneventsimages.azureedge.net/images/siteFeedback.png';
+        window.RSSIcon = 'https://moderneventsimages.azureedge.net/images/rss.png';
+        window.Country = 'US';
+        window.IsConsentRequired = 'False';
+        window.LanguageCode = 'en';
+        window.LanguageName = 'English';
+        window.CountryName = 'United States';
+        window.GeoLocationDistance = '25';
+        window.IsLocalViewModeEnabled = 'True';
+        window.StartTime = '09:00';
+        window.EndTime = '17:00';
+    </script>
+<script src="/bundles/lib?v=cL--ZrEB9lSMv6C2aLtLAeIAZ_MXwCV3dA0Tb0Pe6xo1"></script>
+<script src="/bundles/a11yTypeAhead?v=7JpPRuGBG97_y_DBxMa82p8z_NAddU5XNDmhSEt3FdY1"></script>
+<script src="/bundles/html?v=jjmv5hi62D7eQWLkHcEoSRGRYGssPC4yho0GZOHiS9c1"></script>
+</head>
+<body ng-cloak>
+    <span>
+        <div class="container">
+            <div class="row">
+                <div tabindex="-1" id="skipToEvent" class="skipToEvents"><a href="#homeCorosel">Skip To Main</a></div>
+            </div>
+        </div>
+    </span>
+    <script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script><script src="https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/c0-247156/de-099401/e1-a50eee/e7-954872/d8-97d509/f0-251fe2/46-be1318/77-04a268/11-240c7b/63-077520/a4-34de62/bb-d7480b/db-bc0148/dc-7e9864/6d-c07ea1/e1-c35781/23-c64e70/cd-23d3b0/6d-1e7ed0/b7-cadaa7/c4-898cf2/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/92-10345d/79-499886/7e-cda2d3/b2-7087f0/ab-30f5b9/e0-3c9860/91-97a04f/1f-100dea/33-abe4df/fe-a5cf09?ver=2.0&iife=1"></script>
+        <div id="headerArea" class="uhf"  data-m='{"cN":"headerArea","cT":"Area_coreuiArea","id":"a1Body","sN":1,"aN":"Body"}'>
+                <div id="headerRegion"     data-region-key="headerregion" data-m='{"cN":"headerRegion","cT":"Region_coreui-region","id":"r1a1","sN":1,"aN":"a1"}' >
+
+    <div  id="headerUniversalHeader" data-m='{"cN":"headerUniversalHeader","cT":"Module_coreui-universalheader","id":"m1r1a1","sN":1,"aN":"r1a1"}'  data-module-id="Category|headerRegion|coreui-region|headerUniversalHeader|coreui-universalheader">
+        
+
+
+                        <div data-m='{"cN":"cookiebanner_cont","cT":"Container","id":"c1m1r1a1","sN":1,"aN":"m1r1a1"}'>
+
+<div id="uhfCookieAlert" data-locale="en-us">
+    <div id="msccBannerV2"></div>
+</div>
+
+                            
+                        </div>
+
+
+
+        <a id="uhfSkipToMain" class="m-skip-to-main" href="javascript:void(0)" data-href="" tabindex="0" data-m='{"cN":"Skip to content_nonnav","id":"nn2m1r1a1","sN":2,"aN":"m1r1a1"}'>Skip to main content</a>
+
+
+<header class="c-uhfh context-uhf no-js c-sgl-stck c-category-header " itemscope="itemscope" data-header-footprint="/MSFlagshipEvents/MSEventExperiencesHeader, fromService: True"   data-magict="true"  itemtype="http://schema.org/Organization">
+    <div class="theme-light js-global-head f-closed  global-head-cont" data-m='{"cN":"Universal Header_cont","cT":"Container","id":"c3m1r1a1","sN":3,"aN":"m1r1a1"}'>
+        <div class="c-uhfh-gcontainer-st">
+            <button type="button" class="c-action-trigger c-glyph glyph-global-nav-button" aria-label="All Microsoft expand to see list of Microsoft products and services" initialState-label="All Microsoft expand to see list of Microsoft products and services" toggleState-label="Close All Microsoft list" aria-expanded="false" data-m='{"cN":"Mobile menu button_nonnav","id":"nn1c3m1r1a1","sN":1,"aN":"c3m1r1a1"}'></button>
+            <button type="button" class="c-action-trigger c-glyph glyph-arrow-htmllegacy" aria-label="Close search" aria-expanded="false" data-m='{"cN":"Close Search_nonnav","id":"nn2c3m1r1a1","sN":2,"aN":"c3m1r1a1"}'></button>
+                    <a id="uhfLogo" class="c-logo c-sgl-stk-uhfLogo" itemprop="url" href="https://www.microsoft.com" aria-label="Microsoft" data-m='{"cN":"GlobalNav_Logo_cont","cT":"Container","id":"c3c3m1r1a1","sN":3,"aN":"c3m1r1a1"}'>
+                        <img alt="" itemprop="logo" itemscope="itemscope" class="c-image" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" role="presentation" aria-hidden="true" />
+                        <span role="presentation" aria-hidden="true">Microsoft</span>
+                    </a>
+            <div class="f-mobile-title">
+                <button type="button" class="c-action-trigger c-glyph glyph-chevron-left" aria-label="See more menu options" data-m='{"cN":"Mobile back button_nonnav","id":"nn4c3m1r1a1","sN":4,"aN":"c3m1r1a1"}'></button>
+                <span data-global-title="Microsoft home" class="js-mobile-title">Event experiences</span>
+                <button type="button" class="c-action-trigger c-glyph glyph-chevron-right" aria-label="See more menu options" data-m='{"cN":"Mobile forward button_nonnav","id":"nn5c3m1r1a1","sN":5,"aN":"c3m1r1a1"}'></button>
+            </div>
+                    <div class="c-show-pipe x-hidden-vp-mobile-st">
+                        <a id="uhfCatLogo" class="c-logo c-cat-logo" href="https://www.microsoft.com/en-us/events" aria-label="Event experiences" itemprop="url" data-m='{"cN":"CatNav_Event experiences_nav","id":"n6c3m1r1a1","sN":6,"aN":"c3m1r1a1"}'>
+                                <span>Event experiences</span>
+                        </a>
+                    </div>
+                <div class="cat-logo-button-cont x-hidden">
+                        <button type="button" id="uhfCatLogoButton" class="c-cat-logo-button x-hidden" aria-expanded="false" aria-label="Event experiences" data-m='{"cN":"Event experiences_nonnav","id":"nn7c3m1r1a1","sN":7,"aN":"c3m1r1a1"}'>
+                            Event experiences
+                        </button>
+                </div>
+
+
+
+                    <nav id="uhf-g-nav" aria-label="Contextual menu" class="c-uhfh-gnav" data-m='{"cN":"Category nav_cont","cT":"Container","id":"c8c3m1r1a1","sN":8,"aN":"c3m1r1a1"}'>
+            <ul class="js-paddle-items">
+                    <li class="single-link js-nav-menu x-hidden-none-mobile-vp uhf-menu-item">
+                        <a class="c-uhf-nav-link" href="https://www.microsoft.com/en-us/events" data-m='{"cN":"CatNav_Home_nav","id":"n1c8c3m1r1a1","sN":1,"aN":"c8c3m1r1a1"}' > Home </a>
+                    </li>
+                                        <li class="nested-menu uhf-menu-item">
+                            <div class="c-uhf-menu js-nav-menu">
+                                <button type="button" id="c-shellmenu_47"  aria-expanded="false" data-m='{"cN":"CatNav_Browse catalog_nonnav","id":"nn2c8c3m1r1a1","sN":2,"aN":"c8c3m1r1a1"}'>Browse catalog</button>
+
+                                <ul class="f-multi-column f-multi-column-3" data-class-idn="f-multi-column f-multi-column-3" aria-hidden="true" data-m='{"cN":"Browse catalog_cont","cT":"Container","id":"c3c8c3m1r1a1","sN":3,"aN":"c8c3m1r1a1"}'>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cN":"By product area_cont","cT":"Container","id":"c1c3c8c3m1r1a1","sN":1,"aN":"c3c8c3m1r1a1"}'>
+
+            <button type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"cN":"CatNav_By product area_nonnav","id":"nn1c1c3c8c3m1r1a1","sN":1,"aN":"c1c3c8c3m1r1a1"}'>By product area</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m='{"cN":"Microsoft Azure_cont","cT":"Container","id":"c2c1c3c8c3m1r1a1","sN":2,"aN":"c1c3c8c3m1r1a1"}'>
+            <a id="shellmenu_49" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=true&amp;country=United%20States&amp;language=English&amp;product=Microsoft%20Azure" data-m='{"cN":"CatNav_Microsoft Azure_nav","id":"n1c2c1c3c8c3m1r1a1","sN":1,"aN":"c2c1c3c8c3m1r1a1"}'>Microsoft Azure</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Cloud Platform_cont","cT":"Container","id":"c3c1c3c8c3m1r1a1","sN":3,"aN":"c1c3c8c3m1r1a1"}'>
+            <a id="shellmenu_50" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=true&amp;country=United%20States&amp;language=English&amp;product=Cloud%20Platform" data-m='{"cN":"CatNav_Cloud Platform_nav","id":"n1c3c1c3c8c3m1r1a1","sN":1,"aN":"c3c1c3c8c3m1r1a1"}'>Cloud Platform</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Power BI_cont","cT":"Container","id":"c4c1c3c8c3m1r1a1","sN":4,"aN":"c1c3c8c3m1r1a1"}'>
+            <a id="shellmenu_51" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=true&amp;country=United%20States&amp;language=English&amp;product=Power%20BI" data-m='{"cN":"CatNav_Power BI_nav","id":"n1c4c1c3c8c3m1r1a1","sN":1,"aN":"c4c1c3c8c3m1r1a1"}'>Power BI</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Microsoft Dynamics_cont","cT":"Container","id":"c5c1c3c8c3m1r1a1","sN":5,"aN":"c1c3c8c3m1r1a1"}'>
+            <a id="shellmenu_52" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=true&amp;country=United%20States&amp;language=English&amp;product=Microsoft%20Dynamics" data-m='{"cN":"CatNav_Microsoft Dynamics_nav","id":"n1c5c1c3c8c3m1r1a1","sN":1,"aN":"c5c1c3c8c3m1r1a1"}'>Microsoft Dynamics</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Office_cont","cT":"Container","id":"c6c1c3c8c3m1r1a1","sN":6,"aN":"c1c3c8c3m1r1a1"}'>
+            <a id="shellmenu_53" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=true&amp;country=United%20States&amp;language=English&amp;product=Office" data-m='{"cN":"CatNav_Office_nav","id":"n1c6c1c3c8c3m1r1a1","sN":1,"aN":"c6c1c3c8c3m1r1a1"}'>Office</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Enterprise solutions_cont","cT":"Container","id":"c7c1c3c8c3m1r1a1","sN":7,"aN":"c1c3c8c3m1r1a1"}'>
+            <a id="shellmenu_54" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=true&amp;country=United%20States&amp;language=English&amp;product=Enterprise%20solutions" data-m='{"cN":"CatNav_Enterprise solutions_nav","id":"n1c7c1c3c8c3m1r1a1","sN":1,"aN":"c7c1c3c8c3m1r1a1"}'>Enterprise solutions</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More product areas_cont","cT":"Container","id":"c8c1c3c8c3m1r1a1","sN":8,"aN":"c1c3c8c3m1r1a1"}'>
+            <a id="shellmenu_55" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=false" data-m='{"cN":"CatNav_More product areas_nav","id":"n1c8c1c3c8c3m1r1a1","sN":1,"aN":"c8c1c3c8c3m1r1a1"}'>More product areas</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cN":"By role type_cont","cT":"Container","id":"c2c3c8c3m1r1a1","sN":2,"aN":"c3c8c3m1r1a1"}'>
+
+            <button type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"cN":"CatNav_By role type_nonnav","id":"nn1c2c3c8c3m1r1a1","sN":1,"aN":"c2c3c8c3m1r1a1"}'>By role type</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m='{"cN":"Developers_cont","cT":"Container","id":"c2c2c3c8c3m1r1a1","sN":2,"aN":"c2c3c8c3m1r1a1"}'>
+            <a id="shellmenu_57" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=true&amp;language=English&amp;country=United%20States&amp;eventsfor=Developers" data-m='{"cN":"CatNav_Developers_nav","id":"n1c2c2c3c8c3m1r1a1","sN":1,"aN":"c2c2c3c8c3m1r1a1"}'>Developers</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"IT Professionals_cont","cT":"Container","id":"c3c2c3c8c3m1r1a1","sN":3,"aN":"c2c3c8c3m1r1a1"}'>
+            <a id="shellmenu_58" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=true&amp;language=English&amp;country=United%20States&amp;eventsfor=IT%20Professionals" data-m='{"cN":"CatNav_IT Professionals_nav","id":"n1c3c2c3c8c3m1r1a1","sN":1,"aN":"c3c2c3c8c3m1r1a1"}'>IT Professionals</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Business_cont","cT":"Container","id":"c4c2c3c8c3m1r1a1","sN":4,"aN":"c2c3c8c3m1r1a1"}'>
+            <a id="shellmenu_59" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=true&amp;country=United%20States&amp;language=English&amp;eventsfor=Business%20Professionals" data-m='{"cN":"CatNav_Business_nav","id":"n1c4c2c3c8c3m1r1a1","sN":1,"aN":"c4c2c3c8c3m1r1a1"}'>Business</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cN":"By language_cont","cT":"Container","id":"c3c3c8c3m1r1a1","sN":3,"aN":"c3c8c3m1r1a1"}'>
+
+            <button type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"cN":"CatNav_By language_nonnav","id":"nn1c3c3c8c3m1r1a1","sN":1,"aN":"c3c3c8c3m1r1a1"}'>By language</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m='{"cN":"Espanõl_cont","cT":"Container","id":"c2c3c3c8c3m1r1a1","sN":2,"aN":"c3c3c8c3m1r1a1"}'>
+            <a id="shellmenu_61" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=false&amp;language=Espa%C3%B1ol" data-m='{"cN":"CatNav_Espanõl_nav","id":"n1c2c3c3c8c3m1r1a1","sN":1,"aN":"c2c3c3c8c3m1r1a1"}'>Espan&#245;l</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Deutsch_cont","cT":"Container","id":"c3c3c3c8c3m1r1a1","sN":3,"aN":"c3c3c8c3m1r1a1"}'>
+            <a id="shellmenu_62" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=false&amp;language=Deutsch" data-m='{"cN":"CatNav_Deutsch_nav","id":"n1c3c3c3c8c3m1r1a1","sN":1,"aN":"c3c3c3c8c3m1r1a1"}'>Deutsch</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Français_cont","cT":"Container","id":"c4c3c3c8c3m1r1a1","sN":4,"aN":"c3c3c8c3m1r1a1"}'>
+            <a id="shellmenu_63" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=false&amp;language=Fran%C3%A7ais" data-m='{"cN":"CatNav_Français_nav","id":"n1c4c3c3c8c3m1r1a1","sN":1,"aN":"c4c3c3c8c3m1r1a1"}'>Fran&#231;ais</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Português_cont","cT":"Container","id":"c5c3c3c8c3m1r1a1","sN":5,"aN":"c3c3c8c3m1r1a1"}'>
+            <a id="shellmenu_64" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=false&amp;language=Portugu%C3%AAs" data-m='{"cN":"CatNav_Português_nav","id":"n1c5c3c3c8c3m1r1a1","sN":1,"aN":"c5c3c3c8c3m1r1a1"}'>Portugu&#234;s</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"繁體中文_cont","cT":"Container","id":"c6c3c3c8c3m1r1a1","sN":6,"aN":"c3c3c8c3m1r1a1"}'>
+            <a id="shellmenu_65" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=false&amp;language=%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87" data-m='{"cN":"CatNav_繁體中文_nav","id":"n1c6c3c3c8c3m1r1a1","sN":1,"aN":"c6c3c3c8c3m1r1a1"}'>繁體中文</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Italiano_cont","cT":"Container","id":"c7c3c3c8c3m1r1a1","sN":7,"aN":"c3c3c8c3m1r1a1"}'>
+            <a id="shellmenu_66" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=false&amp;language=Italiano" data-m='{"cN":"CatNav_Italiano_nav","id":"n1c7c3c3c8c3m1r1a1","sN":1,"aN":"c7c3c3c8c3m1r1a1"}'>Italiano</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More languages_cont","cT":"Container","id":"c8c3c3c8c3m1r1a1","sN":8,"aN":"c3c3c8c3m1r1a1"}'>
+            <a id="shellmenu_67" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=false" data-m='{"cN":"CatNav_More languages_nav","id":"n1c8c3c3c8c3m1r1a1","sN":1,"aN":"c8c3c3c8c3m1r1a1"}'>More languages</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+                                                        <li class="f-multi-column-info"><a data-m='{"cN":"Search all events_nav","id":"n4c3c8c3m1r1a1","sN":4,"aN":"c3c8c3m1r1a1"}' href="https://events.microsoft.com/?timeperiod=all&amp;isSharedInLocalViewMode=false" aria-label="Search all events" class="c-glyph">Search all events</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </li>                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_68" class="c-uhf-nav-link" href="https://www.microsoft.com/en-us/accessibility" data-m='{"cN":"CatNav_Accessibility_nav","id":"n4c8c3m1r1a1","sN":4,"aN":"c8c3m1r1a1"}'>Accessibility</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_69" class="c-uhf-nav-link" href="https://docs.microsoft.com/en-us/learn/" data-m='{"cN":"CatNav_Microsoft Learn_nav","id":"n5c8c3m1r1a1","sN":5,"aN":"c8c3m1r1a1"}'>Microsoft Learn</a>
+                        </li>
+
+
+                <li id="overflow-menu" class="overflow-menu x-hidden uhf-menu-item">
+                        <div class="c-uhf-menu js-nav-menu">
+        <button data-m='{"pid":"More","id":"nn6c8c3m1r1a1","sN":6,"aN":"c8c3m1r1a1"}' type="button" aria-label="More" aria-expanded="false">More</button>
+        <ul id="overflow-menu-list" aria-hidden="true" class="overflow-menu-list">
+        </ul>
+    </div>
+
+                </li>
+                            </ul>
+            
+        </nav>
+
+
+            <div class="c-uhfh-actions" data-m='{"cN":"Header actions_cont","cT":"Container","id":"c9c3m1r1a1","sN":9,"aN":"c3m1r1a1"}'>
+                <div class="wf-menu">        <nav id="uhf-c-nav" data-m='{"cN":"GlobalNav_cont","cT":"Container","id":"c1c9c3m1r1a1","sN":1,"aN":"c9c3m1r1a1"}'>
+            <ul class="js-paddle-items">
+                <li>
+                    <div class="c-uhf-menu js-nav-menu">
+                        <button type="button" class="c-button-logo all-ms-nav" aria-label="All Microsoft expand to see list of Microsoft products and services" aria-expanded="false" data-m='{"cN":"GlobalNav_More_nonnav","id":"nn1c1c9c3m1r1a1","sN":1,"aN":"c1c9c3m1r1a1"}'> <span>All Microsoft</span></button>
+                        <ul class="f-multi-column f-multi-column-6" aria-hidden="true" data-m='{"cN":"More_cont","cT":"Container","id":"c2c1c9c3m1r1a1","sN":2,"aN":"c1c9c3m1r1a1"}'>
+                                    <li class="c-w0-contr">
+            <ul class="c-w0">
+        <li class="js-nav-menu single-link" data-m='{"cN":"Microsoft 365_cont","cT":"Container","id":"c1c2c1c9c3m1r1a1","sN":1,"aN":"c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_0" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/microsoft-365/business/all-business" data-m='{"cN":"W0Nav_Microsoft 365_nav","id":"n1c1c2c1c9c3m1r1a1","sN":1,"aN":"c1c2c1c9c3m1r1a1"}'>Microsoft 365</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Azure_cont","cT":"Container","id":"c2c2c1c9c3m1r1a1","sN":2,"aN":"c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_1" class="js-subm-uhf-nav-link" href="https://azure.microsoft.com" data-m='{"cN":"W0Nav_Azure_nav","id":"n1c2c2c1c9c3m1r1a1","sN":1,"aN":"c2c2c1c9c3m1r1a1"}'>Azure</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Office 365_cont","cT":"Container","id":"c3c2c1c9c3m1r1a1","sN":3,"aN":"c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_2" class="js-subm-uhf-nav-link" href="https://products.office.com/en-us/business/office" data-m='{"cN":"W0Nav_Office 365_nav","id":"n1c3c2c1c9c3m1r1a1","sN":1,"aN":"c3c2c1c9c3m1r1a1"}'>Office 365</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Dynamics 365_cont","cT":"Container","id":"c4c2c1c9c3m1r1a1","sN":4,"aN":"c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_3" class="js-subm-uhf-nav-link" href="https://dynamics.microsoft.com/en-us/" data-m='{"cN":"W0Nav_Dynamics 365_nav","id":"n1c4c2c1c9c3m1r1a1","sN":1,"aN":"c4c2c1c9c3m1r1a1"}'>Dynamics 365</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Power Platform_cont","cT":"Container","id":"c5c2c1c9c3m1r1a1","sN":5,"aN":"c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_4" class="js-subm-uhf-nav-link" href="https://powerplatform.microsoft.com/en-us" data-m='{"cN":"W0Nav_Power Platform_nav","id":"n1c5c2c1c9c3m1r1a1","sN":1,"aN":"c5c2c1c9c3m1r1a1"}'>Power Platform</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Windows 10_cont","cT":"Container","id":"c6c2c1c9c3m1r1a1","sN":6,"aN":"c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_5" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/microsoft-365/windows" data-m='{"cN":"W0Nav_Windows 10_nav","id":"n1c6c2c1c9c3m1r1a1","sN":1,"aN":"c6c2c1c9c3m1r1a1"}'>Windows 10</a>
+            
+        </li>
+            </ul>
+        </li>
+
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c7c2c1c9c3m1r1a1","sN":7,"aN":"c2c1c9c3m1r1a1"}'>
+
+            <button type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c7c2c1c9c3m1r1a1","sN":1,"aN":"c7c2c1c9c3m1r1a1"}'>Products &amp; Services</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_ProductsandServices_WindowsServer_cont","cT":"Container","id":"c2c7c2c1c9c3m1r1a1","sN":2,"aN":"c7c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_8" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/cloud-platform/windows-server" data-m='{"cN":"GlobalNav_More_ProductsandServices_WindowsServer_nav","id":"n1c2c7c2c1c9c3m1r1a1","sN":1,"aN":"c2c7c2c1c9c3m1r1a1"}'>Windows Server</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_ProductsandServices_EnterpriseMobilityandSecurity_cont","cT":"Container","id":"c3c7c2c1c9c3m1r1a1","sN":3,"aN":"c7c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_9" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/cloud-platform/enterprise-mobility-security" data-m='{"cN":"GlobalNav_More_ProductsandServices_EnterpriseMobilityandSecurity_nav","id":"n1c3c7c2c1c9c3m1r1a1","sN":1,"aN":"c3c7c2c1c9c3m1r1a1"}'>Enterprise Mobility + Security</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_ProductsandServices_PowerBI_cont","cT":"Container","id":"c4c7c2c1c9c3m1r1a1","sN":4,"aN":"c7c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_10" class="js-subm-uhf-nav-link" href="https://powerbi.microsoft.com/en-us/" data-m='{"cN":"GlobalNav_More_ProductsandServices_PowerBI_nav","id":"n1c4c7c2c1c9c3m1r1a1","sN":1,"aN":"c4c7c2c1c9c3m1r1a1"}'>Power BI</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_ProductsandServices_Teams_cont","cT":"Container","id":"c5c7c2c1c9c3m1r1a1","sN":5,"aN":"c7c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_11" class="js-subm-uhf-nav-link" href="https://products.office.com/en-us/microsoft-teams/group-chat-software" data-m='{"cN":"GlobalNav_More_ProductsandServices_Teams_nav","id":"n1c5c7c2c1c9c3m1r1a1","sN":1,"aN":"c5c7c2c1c9c3m1r1a1"}'>Teams</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"DeveloperAndIT_VisualStudio_cont","cT":"Container","id":"c6c7c2c1c9c3m1r1a1","sN":6,"aN":"c7c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_12" class="js-subm-uhf-nav-link" href="https://visualstudio.microsoft.com/" data-m='{"cN":"GlobalNav_DeveloperAndIT_VisualStudio_nav","id":"n1c6c7c2c1c9c3m1r1a1","sN":1,"aN":"c6c7c2c1c9c3m1r1a1"}'>Visual Studio</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_MicrosoftAdvertising_cont","cT":"Container","id":"c7c7c2c1c9c3m1r1a1","sN":7,"aN":"c7c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_13" class="js-subm-uhf-nav-link" href="https://go.microsoft.com/fwlink/?linkid=2026462" data-m='{"cN":"GlobalNav_More_MicrosoftAdvertising_nav","id":"n1c7c7c2c1c9c3m1r1a1","sN":1,"aN":"c7c7c2c1c9c3m1r1a1"}'>Microsoft Advertising</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c8c2c1c9c3m1r1a1","sN":8,"aN":"c2c1c9c3m1r1a1"}'>
+
+            <button type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c8c2c1c9c3m1r1a1","sN":1,"aN":"c8c2c1c9c3m1r1a1"}'>Emerging Technologies</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_EmergingTechnologies_AI_cont","cT":"Container","id":"c2c8c2c1c9c3m1r1a1","sN":2,"aN":"c8c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_15" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/ai/" data-m='{"cN":"GlobalNav_More_EmergingTechnologies_AI_nav","id":"n1c2c8c2c1c9c3m1r1a1","sN":1,"aN":"c2c8c2c1c9c3m1r1a1"}'>AI</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_EmergingTechnologies_InternetofThings_cont","cT":"Container","id":"c3c8c2c1c9c3m1r1a1","sN":3,"aN":"c8c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_16" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/internet-of-things/" data-m='{"cN":"GlobalNav_More_EmergingTechnologies_InternetofThings_nav","id":"n1c3c8c2c1c9c3m1r1a1","sN":1,"aN":"c3c8c2c1c9c3m1r1a1"}'>Internet of Things</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_EmergingTechnologies_AzureCognitiveServices_cont","cT":"Container","id":"c4c8c2c1c9c3m1r1a1","sN":4,"aN":"c8c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_17" class="js-subm-uhf-nav-link" href="https://azure.microsoft.com/services/cognitive-services/" data-m='{"cN":"GlobalNav_More_EmergingTechnologies_AzureCognitiveServices_nav","id":"n1c4c8c2c1c9c3m1r1a1","sN":1,"aN":"c4c8c2c1c9c3m1r1a1"}'>Azure Cognitive Services</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_EmergingTechnologies_Quantum_cont","cT":"Container","id":"c5c8c2c1c9c3m1r1a1","sN":5,"aN":"c8c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_18" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/quantum/" data-m='{"cN":"GlobalNav_More_EmergingTechnologies_Quantum_nav","id":"n1c5c8c2c1c9c3m1r1a1","sN":1,"aN":"c5c8c2c1c9c3m1r1a1"}'>Quantum</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_PCsAndDevices_MicrosoftHololens_cont","cT":"Container","id":"c6c8c2c1c9c3m1r1a1","sN":6,"aN":"c8c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_19" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/hololens" data-m='{"cN":"GlobalNav_More_PCsAndDevices_MicrosoftHololens_nav","id":"n1c6c8c2c1c9c3m1r1a1","sN":1,"aN":"c6c8c2c1c9c3m1r1a1"}'>Microsoft HoloLens</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_PCsAndDevices_VMAndMixedReality_cont","cT":"Container","id":"c7c8c2c1c9c3m1r1a1","sN":7,"aN":"c8c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_20" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/mixed-reality" data-m='{"cN":"GlobalNav_More_PCsAndDevices_VMAndMixedReality_nav","id":"n1c7c8c2c1c9c3m1r1a1","sN":1,"aN":"c7c8c2c1c9c3m1r1a1"}'>Mixed Reality</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c9c2c1c9c3m1r1a1","sN":9,"aN":"c2c1c9c3m1r1a1"}'>
+
+            <button type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c9c2c1c9c3m1r1a1","sN":1,"aN":"c9c2c1c9c3m1r1a1"}'>Developer &amp; IT</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_Docs.microsoft.com_cont","cT":"Container","id":"c2c9c2c1c9c3m1r1a1","sN":2,"aN":"c9c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_22" class="js-subm-uhf-nav-link" href="https://docs.microsoft.com/en-us/" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_Docs.microsoft.com_nav","id":"n1c2c9c2c1c9c3m1r1a1","sN":1,"aN":"c2c9c2c1c9c3m1r1a1"}'>Docs</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_DeveloperCenter_cont","cT":"Container","id":"c3c9c2c1c9c3m1r1a1","sN":3,"aN":"c9c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_23" class="js-subm-uhf-nav-link" href="https://developer.microsoft.com/" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_DeveloperCenter_nav","id":"n1c3c9c2c1c9c3m1r1a1","sN":1,"aN":"c3c9c2c1c9c3m1r1a1"}'>Developer Center</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_WindowsDevCenter_cont","cT":"Container","id":"c4c9c2c1c9c3m1r1a1","sN":4,"aN":"c9c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_24" class="js-subm-uhf-nav-link" href="https://developer.microsoft.com/en-us/windows" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_WindowsDevCenter_nav","id":"n1c4c9c2c1c9c3m1r1a1","sN":1,"aN":"c4c9c2c1c9c3m1r1a1"}'>Windows Dev Center</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_Windows_IT_Pro_Center_cont","cT":"Container","id":"c5c9c2c1c9c3m1r1a1","sN":5,"aN":"c9c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_25" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/itpro/windows" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_Windows_IT_Pro_Center_nav","id":"n1c5c9c2c1c9c3m1r1a1","sN":1,"aN":"c5c9c2c1c9c3m1r1a1"}'>Windows IT Pro Center</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_FastTrack_cont","cT":"Container","id":"c6c9c2c1c9c3m1r1a1","sN":6,"aN":"c9c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_26" class="js-subm-uhf-nav-link" href="https://fasttrack.microsoft.com/office" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_FastTrack_nav","id":"n1c6c9c2c1c9c3m1r1a1","sN":1,"aN":"c6c9c2c1c9c3m1r1a1"}'>FastTrack</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_Power Platform_cont","cT":"Container","id":"c7c9c2c1c9c3m1r1a1","sN":7,"aN":"c9c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_27" class="js-subm-uhf-nav-link" href="https://powerplatform.microsoft.com/en-us" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_Power Platform_nav","id":"n1c7c9c2c1c9c3m1r1a1","sN":1,"aN":"c7c9c2c1c9c3m1r1a1"}'>Power Platform</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c10c2c1c9c3m1r1a1","sN":10,"aN":"c2c1c9c3m1r1a1"}'>
+
+            <button type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c10c2c1c9c3m1r1a1","sN":1,"aN":"c10c2c1c9c3m1r1a1"}'>Partner</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Partner_PartnerNetwork_cont","cT":"Container","id":"c2c10c2c1c9c3m1r1a1","sN":2,"aN":"c10c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_29" class="js-subm-uhf-nav-link" href="https://partner.microsoft.com/" data-m='{"cN":"GlobalNav_More_Partner_PartnerNetwork_nav","id":"n1c2c10c2c1c9c3m1r1a1","sN":1,"aN":"c2c10c2c1c9c3m1r1a1"}'>Partner Network</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Partner_SolutionProviders_cont","cT":"Container","id":"c3c10c2c1c9c3m1r1a1","sN":3,"aN":"c10c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_30" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/solution-providers" data-m='{"cN":"GlobalNav_More_Partner_SolutionProviders_nav","id":"n1c3c10c2c1c9c3m1r1a1","sN":1,"aN":"c3c10c2c1c9c3m1r1a1"}'>Solution Providers</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Partner_PartnerCenter_cont","cT":"Container","id":"c4c10c2c1c9c3m1r1a1","sN":4,"aN":"c10c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_31" class="js-subm-uhf-nav-link" href="https://partnercenter.microsoft.com/partner/home" data-m='{"cN":"GlobalNav_More_Partner_PartnerCenter_nav","id":"n1c4c10c2c1c9c3m1r1a1","sN":1,"aN":"c4c10c2c1c9c3m1r1a1"}'>Partner Center</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Partner_CloudHosting_cont","cT":"Container","id":"c5c10c2c1c9c3m1r1a1","sN":5,"aN":"c10c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_32" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/cloudandhosting" data-m='{"cN":"GlobalNav_More_Partner_CloudHosting_nav","id":"n1c5c10c2c1c9c3m1r1a1","sN":1,"aN":"c5c10c2c1c9c3m1r1a1"}'>Cloud Hosting</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c11c2c1c9c3m1r1a1","sN":11,"aN":"c2c1c9c3m1r1a1"}'>
+
+            <button type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c11c2c1c9c3m1r1a1","sN":1,"aN":"c11c2c1c9c3m1r1a1"}'>Industries</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m='{"cN":"Products_ForStudentsAndEducators_Education_cont","cT":"Container","id":"c2c11c2c1c9c3m1r1a1","sN":2,"aN":"c11c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_34" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/education?icid=CNavMSCOML0_Studentsandeducation" data-m='{"cN":"GlobalNav_Products_ForStudentsAndEducators_Education_nav","id":"n1c2c11c2c1c9c3m1r1a1","sN":1,"aN":"c2c11c2c1c9c3m1r1a1"}'>Education</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Footer_Enterprise_FinanciaServices_cont","cT":"Container","id":"c3c11c2c1c9c3m1r1a1","sN":3,"aN":"c11c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_35" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/enterprise/financial-services/banking-and-capital-markets" data-m='{"cN":"GlobalNav_Footer_Enterprise_FinanciaServices_nav","id":"n1c3c11c2c1c9c3m1r1a1","sN":1,"aN":"c3c11c2c1c9c3m1r1a1"}'>Financial services</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Industries_Government_cont","cT":"Container","id":"c4c11c2c1c9c3m1r1a1","sN":4,"aN":"c11c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_36" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/enterprise/government" data-m='{"cN":"GlobalNav_More_Industries_Government_nav","id":"n1c4c11c2c1c9c3m1r1a1","sN":1,"aN":"c4c11c2c1c9c3m1r1a1"}'>Government</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Industries_Health_cont","cT":"Container","id":"c5c11c2c1c9c3m1r1a1","sN":5,"aN":"c11c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_37" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/enterprise/health" data-m='{"cN":"GlobalNav_More_Industries_Health_nav","id":"n1c5c11c2c1c9c3m1r1a1","sN":1,"aN":"c5c11c2c1c9c3m1r1a1"}'>Health</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Footer_Enterprise_Health_cont","cT":"Container","id":"c6c11c2c1c9c3m1r1a1","sN":6,"aN":"c11c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_38" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/enterprise/manufacturing" data-m='{"cN":"GlobalNav_Footer_Enterprise_Health_nav","id":"n1c6c11c2c1c9c3m1r1a1","sN":1,"aN":"c6c11c2c1c9c3m1r1a1"}'>Manufacturing &amp; resources</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Industries_Retail_cont","cT":"Container","id":"c7c11c2c1c9c3m1r1a1","sN":7,"aN":"c11c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_39" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/enterprise/retail-consumer-goods" data-m='{"cN":"GlobalNav_More_Industries_Retail_nav","id":"n1c7c11c2c1c9c3m1r1a1","sN":1,"aN":"c7c11c2c1c9c3m1r1a1"}'>Retail</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c12c2c1c9c3m1r1a1","sN":12,"aN":"c2c1c9c3m1r1a1"}'>
+
+            <button type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c12c2c1c9c3m1r1a1","sN":1,"aN":"c12c2c1c9c3m1r1a1"}'>Other</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Other_Security_cont","cT":"Container","id":"c2c12c2c1c9c3m1r1a1","sN":2,"aN":"c12c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_41" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/security/" data-m='{"cN":"GlobalNav_More_Other_Security_nav","id":"n1c2c12c2c1c9c3m1r1a1","sN":1,"aN":"c2c12c2c1c9c3m1r1a1"}'>Security</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Other_Licensing_cont","cT":"Container","id":"c3c12c2c1c9c3m1r1a1","sN":3,"aN":"c12c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_42" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/licensing/" data-m='{"cN":"GlobalNav_More_Other_Licensing_nav","id":"n1c3c12c2c1c9c3m1r1a1","sN":1,"aN":"c3c12c2c1c9c3m1r1a1"}'>Licensing</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Other_AppSource_cont","cT":"Container","id":"c4c12c2c1c9c3m1r1a1","sN":4,"aN":"c12c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_43" class="js-subm-uhf-nav-link" href="https://appsource.microsoft.com/" data-m='{"cN":"GlobalNav_More_Other_AppSource_nav","id":"n1c4c12c2c1c9c3m1r1a1","sN":1,"aN":"c4c12c2c1c9c3m1r1a1"}'>AppSource</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Other_AzureMarketplace_cont","cT":"Container","id":"c5c12c2c1c9c3m1r1a1","sN":5,"aN":"c12c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_44" class="js-subm-uhf-nav-link" href="https://azuremarketplace.microsoft.com/marketplace/" data-m='{"cN":"GlobalNav_More_Other_AzureMarketplace_nav","id":"n1c5c12c2c1c9c3m1r1a1","sN":1,"aN":"c5c12c2c1c9c3m1r1a1"}'>Azure Marketplace</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Other_Events_cont","cT":"Container","id":"c6c12c2c1c9c3m1r1a1","sN":6,"aN":"c12c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_45" class="js-subm-uhf-nav-link" href="https://events.microsoft.com/" data-m='{"cN":"GlobalNav_More_Other_Events_nav","id":"n1c6c12c2c1c9c3m1r1a1","sN":1,"aN":"c6c12c2c1c9c3m1r1a1"}'>Events</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_EmergingTechnologies_Research_cont","cT":"Container","id":"c7c12c2c1c9c3m1r1a1","sN":7,"aN":"c12c2c1c9c3m1r1a1"}'>
+            <a id="shellmenu_46" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/research/" data-m='{"cN":"GlobalNav_More_EmergingTechnologies_Research_nav","id":"n1c7c12c2c1c9c3m1r1a1","sN":1,"aN":"c7c12c2c1c9c3m1r1a1"}'>Research</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+                                                            <li class="f-multi-column-info">
+                                    <a data-m='{"id":"n13c2c1c9c3m1r1a1","sN":13,"aN":"c2c1c9c3m1r1a1"}' href="https://www.microsoft.com/en-us/sitemap.aspx" aria-label="" class="c-glyph">View Sitemap</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+</div>
+                            <form class="c-search" autocomplete="off" id="searchForm" name="searchForm" role="search" action="https://www.microsoft.com/en-us/search" method="GET" data-seAutoSuggest='{"queryParams":{"market":"en-us","clientId":"7F27B536-CF6B-4C65-8638-A0F8CBDFCA65","sources":"Iris-Products,DCatAll-Products,Microsoft-Terms","filter":"+ClientType:StoreWeb","counts":"1,5,5"},"familyNames":{"Apps":"App","Books":"Book","Bundles":"Bundle","Devices":"Device","Fees":"Fee","Games":"Game","MusicAlbums":"Album","MusicTracks":"Song","MusicVideos":"Video","MusicArtists":"Artist","OperatingSystem":"Operating System","Software":"Software","Movies":"Movie","TV":"TV","CSV":"Gift Card","VideoActor":"Actor"}}' data-seautosuggestapi="https://www.microsoft.com/services/api/v3/suggest" data-m='{"cN":"GlobalNav_Search_cont","cT":"Container","id":"c3c1c9c3m1r1a1","sN":3,"aN":"c1c9c3m1r1a1"}' aria-expanded="false">
+                                <input id="cli_shellHeaderSearchInput" aria-label="search expanded" aria-autocomplete="list" aria-controls="universal-header-search-auto-suggest-transparent" aria-owns="universal-header-search-auto-suggest-ul" type="search" name="q" placeholder="Search Microsoft.com" data-m='{"cN":"SearchBox_nav","id":"n1c3c1c9c3m1r1a1","sN":1,"aN":"c3c1c9c3m1r1a1"}' />
+                                    <button id="search" aria-label="Search Microsoft.com" class="c-glyph" data-m='{"cN":"Search_nav","id":"n2c3c1c9c3m1r1a1","sN":2,"aN":"c3c1c9c3m1r1a1"}' data-bi-dnt="true" data-bi-mto="true" aria-expanded="false">
+                                        <span role="presentation">Search</span>
+                                        <span role="tooltip" class="tooltip search-tooltip">Search Microsoft.com</span>
+                                    </button>
+                                <div class="m-auto-suggest" id="universal-header-search-auto-suggest-transparent" role="group">
+                                    <ul class="c-menu" id="universal-header-search-auto-suggest-ul" aria-label="Search Suggestions" aria-hidden="true" data-bi-dnt="true" data-bi-mto="true" data-js-auto-suggest-position="default" role="listbox" data-tel="jsll" data-m='{"cN":"search suggestions_cont","cT":"Container","id":"c3c3c1c9c3m1r1a1","sN":3,"aN":"c3c1c9c3m1r1a1"}'></ul>
+                                </div>
+                                
+                            </form>
+                        <button data-m='{"cN":"cancel-search","pid":"Cancel Search","id":"nn4c1c9c3m1r1a1","sN":4,"aN":"c1c9c3m1r1a1"}' id="cancel-search" class="cancel-search" aria-label="Cancel Search">
+                            <span>Cancel</span>
+                        </button>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+    
+</header>
+
+
+
+
+    </div>
+        </div>
+
+    </div>
+
+    <div id="frameContainer" style="display:none"></div>
+    <input type="hidden" value="Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImtnMkxZczJUMENUaklmajRydDZKSXluZW4zOCIsImtpZCI6ImtnMkxZczJUMENUaklmajRydDZKSXluZW4zOCJ9.eyJhdWQiOiJodHRwczovL2dldGV2ZW50c3NlcnZpY2Uub25lLm1pY3Jvc29mdC5jb20vZ2V0ZXZlbnRzZXJ2aWNlIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvNzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3LyIsImlhdCI6MTYwMjU0NzY3MCwibmJmIjoxNjAyNTQ3NjcwLCJleHAiOjE2MDI2MzQzNzAsImFpbyI6IkUyUmdZT0Q1dW5PeXdLSlhHK2F0ZlNGZ0V2bkhHQUE9IiwiYXBwaWQiOiJkNGY3MjlhYy0zNDM4LTQ4NmYtOTc5Yi1jOGQ4YWZjNTVhMGUiLCJhcHBpZGFjciI6IjIiLCJpZHAiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC83MmY5ODhiZi04NmYxLTQxYWYtOTFhYi0yZDdjZDAxMWRiNDcvIiwib2lkIjoiZDk5MmU4Y2MtYjBjYi00YTE5LTljYmItYjZhNjE5MTZiMDQ2IiwicmgiOiIwLkFSb0F2NGo1Y3ZHR3IwR1JxeTE4MEJIYlI2d3A5OVE0Tkc5SWw1dkkyS19GV2c0YUFBQS4iLCJzdWIiOiJkOTkyZThjYy1iMGNiLTRhMTktOWNiYi1iNmE2MTkxNmIwNDYiLCJ0aWQiOiI3MmY5ODhiZi04NmYxLTQxYWYtOTFhYi0yZDdjZDAxMWRiNDciLCJ1dGkiOiJZTDAxMEtwRWRreUxIMDRETWFOWkFBIiwidmVyIjoiMS4wIn0.qeIv4DLcxueFBRtNNOKyrz3LKc7giX9v_Y5bMtQkfb-hVdv2j8MPezMN9rKacs9kjUlpZUdOEDaK7_GG6NXo0ALjzPds8Oed-_p-_9H0zg9C2T-ijLolXAwGwigUkEjE_t4-7Lf56RfZpJ0Y2FPKOgrRGdgBscVlVz--1RQvIgjVHjkS57S57orybLms_sNLLUhECbONwItmxI3jhNoSJpYHE7aC1tVYmUCszKeiFF9nww5ensdt5dHEKSnwoeyCBVqrQD_qXi3ciNz14ct36rP0FemeJZP2hUzWRVR50ek96yk8v7EsfnmdSNXDeZY9iJph-W52cEsYea3LWNwJZw" />
+    <input type="hidden" id="hdnUserLanguageCode" value="en" />
+    <input type="hidden" id="hdnUserLanguage" value="English" />
+    <input type="hidden" id="hdnUserCountryCode" value="US" />
+    <input type="hidden" id="hdnUserCountry" value="United States" />
+    
+    <script type="text/javascript">
+        var DefaultPageLoadData = {};
+        DefaultPageLoadData.Images = [{"EventTitle":"Learn more about Microsoft Flagship events","EventImage":"https://mefeaturedimages.azureedge.net/images/MSFT_Events_Flagship_Banner-ALT_1440x300.jpg","EventUrl":"https://www.microsoft.com/en-us/events"}];
+        DefaultPageLoadData.Events = {"Facets":{"EventsFor":[{"ItemName":"Business Professionals","Count":357},{"ItemName":"Developers","Count":338},{"ItemName":"Educators","Count":31},{"ItemName":"Government","Count":251},{"ItemName":"IT Professionals","Count":569},{"ItemName":"Partners","Count":735},{"ItemName":"Students","Count":16}],"Category":[{"ItemName":"Online","Count":106},{"ItemName":"On Demand","Count":1046}],"Product":[{"ItemName":"Cloud Platform","Count":93},{"ItemName":"Developer Tools","Count":30},{"ItemName":"Enterprise Solutions","Count":2},{"ItemName":"Enterprise solutions","Count":32},{"ItemName":"Microsoft 365","Count":83},{"ItemName":"Microsoft Azure","Count":436},{"ItemName":"Microsoft Dynamics","Count":234},{"ItemName":"Office","Count":181},{"ItemName":"Power BI","Count":161},{"ItemName":"PowerApps","Count":99},{"ItemName":"Server and Management","Count":30},{"ItemName":"Small Business solutions","Count":29},{"ItemName":"Surface","Count":38},{"ItemName":"Teams","Count":50},{"ItemName":"Windows","Count":63},{"ItemName":"Devices \u0026 Xbox","Count":3},{"ItemName":"Skype","Count":35}],"SolutionArea":[{"ItemName":"Apps \u0026 Infra","Count":408},{"ItemName":"Business Applications","Count":465},{"ItemName":"Digital Transformation and Industry","Count":19},{"ItemName":"Modern Workplace","Count":283},{"ItemName":"Data \u0026 AI","Count":4}],"PrimaryLanguage":[{"LanguageName":"English","LanguageCode":"en","Count":1152}],"Country":[],"CampaignIndustry":[]},"TotalResults":1152,"Events":[{"EventId":"353974","Type":"InPerson","Title":"Microsoft Remote Security","URL":"https://www.microsoftevents.com//profile/form/index.cfm?PKformID=0x114181840001","Description":"Microsoft Compliance The Compliance Data Risk Management Workshop is designed to provide customers an example of compliance risks in the data contained within their Modern Work environments. Microsoft Remote Security The Microsoft Security Workshop is designed to create customer intent for purchasing and/or deploying advanced Microsoft Security products.","StartDate":"\/Date(1602579600000)\/","EndDate":"\/Date(1602597600000)\/","UtcStartDate":"\/Date(1602604800000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(GMT-07:00) Pacific Time (US \u0026 Canada)","Country":null,"EventsFor":["Partners"],"PrimaryLanguage":["English"],"Product":["Enterprise Solutions"],"SolutionArea":["Modern Workplace"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/EnterpriseSolutions.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"Certain"},{"EventId":"354911","Type":"InPerson","Title":"Dashboard In A Day - flexmanage - United States","URL":"https://www.microsoftevents.com//profile/form/index.cfm?PKformID=0x115047480001","Description":"Dashboard in a Day is designed to help you understand how to analyze your data in a rich and compelling way. This comprehensive workshop is led by a certified Microsoft Partner.","StartDate":"\/Date(1602579600000)\/","EndDate":"\/Date(1602608400000)\/","UtcStartDate":"\/Date(1602597600000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(GMT-05:00) Central Time (US \u0026 Canada)","Country":null,"EventsFor":["Developers","IT Professionals","Business Professionals","Government"],"PrimaryLanguage":["English"],"Product":["Power BI"],"SolutionArea":["Business Applications"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/PowerBI.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"Certain"},{"EventId":"355231","Type":"InPerson","Title":"Dashboard In A Day - Jump Analytics Inc. - United States","URL":"https://www.microsoftevents.com//profile/form/index.cfm?PKformID=0x115292960001","Description":"Dashboard in a Day is designed to help you understand how to analyze your data in a rich and compelling way. This comprehensive workshop is led by a certified Microsoft Partner.","StartDate":"\/Date(1602579600000)\/","EndDate":"\/Date(1602608400000)\/","UtcStartDate":"\/Date(1602601200000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(GMT-06:00) Mountain Time (US \u0026 Canada)","Country":null,"EventsFor":["Developers","IT Professionals","Business Professionals","Government"],"PrimaryLanguage":["English"],"Product":["Power BI"],"SolutionArea":["Business Applications"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/PowerBI.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"Certain"},{"EventId":"355228","Type":"InPerson","Title":"Dashboard In A Day - Pragmatic Works - United States","URL":"https://www.microsoftevents.com//profile/form/index.cfm?PKformID=0x115289540001","Description":"Dashboard in a Day is designed to help you understand how to analyze your data in a rich and compelling way. This comprehensive workshop is led by a certified Microsoft Partner.","StartDate":"\/Date(1602579600000)\/","EndDate":"\/Date(1602608400000)\/","UtcStartDate":"\/Date(1602604800000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(GMT-07:00) Pacific Time (US \u0026 Canada)","Country":null,"EventsFor":["Developers","IT Professionals","Business Professionals","Government"],"PrimaryLanguage":["English"],"Product":["Power BI"],"SolutionArea":["Business Applications"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/PowerBI.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"Certain"},{"EventId":"355052","Type":"InPerson","Title":"Dashboard In A Day - Orion Systems Integrators, LLC - United States","URL":"https://www.microsoftevents.com//profile/form/index.cfm?PKformID=0x115200050001","Description":"Dashboard in a Day is designed to help you understand how to analyze your data in a rich and compelling way. This comprehensive workshop is led by a certified Microsoft Partner.","StartDate":"\/Date(1602666000000)\/","EndDate":"\/Date(1602694800000)\/","UtcStartDate":"\/Date(1602684000000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(GMT-05:00) Central Time (US \u0026 Canada)","Country":null,"EventsFor":["Developers","IT Professionals","Business Professionals","Government"],"PrimaryLanguage":["English"],"Product":["Power BI"],"SolutionArea":["Business Applications"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/PowerBI.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"Certain"},{"EventId":"352000","Type":"InPerson","Title":"Dashboard In A Day - Cleverspeck - United States","URL":"https://www.microsoftevents.com//profile/form/index.cfm?PKformID=0x113064070001","Description":"Dashboard in a Day is designed to help you understand how to analyze your data in a rich and compelling way. This comprehensive workshop is led by a certified Microsoft Partner.","StartDate":"\/Date(1602666000000)\/","EndDate":"\/Date(1602694800000)\/","UtcStartDate":"\/Date(1602676800000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(GMT-04:00) Eastern Time (US \u0026 Canada)","Country":null,"EventsFor":["Developers","IT Professionals","Business Professionals","Government"],"PrimaryLanguage":["English"],"Product":["Power BI"],"SolutionArea":["Business Applications"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/PowerBI.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"Certain"},{"EventId":"355063","Type":"InPerson","Title":"App in a Day - MAQ Software - United States","URL":"https://www.microsoftevents.com//profile/form/index.cfm?PKformID=0x115206890001","Description":"App in a Day is designed to accelerate your Power Apps, Power Automate and Common Data Service experience with a comprehensive workshop led by a certified Microsoft Partner.","StartDate":"\/Date(1602666000000)\/","EndDate":"\/Date(1602694800000)\/","UtcStartDate":"\/Date(1602676800000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(GMT-04:00) Eastern Time (US \u0026 Canada)","Country":null,"EventsFor":["Developers","IT Professionals","Business Professionals","Government"],"PrimaryLanguage":["English"],"Product":["PowerApps"],"SolutionArea":["Business Applications"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/PowerApps.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"Certain"},{"EventId":"354674","Type":"InPerson","Title":"Dashboard In A Day - Softcrylic - United States","URL":"https://www.microsoftevents.com//profile/form/index.cfm?PKformID=0x114808270001","Description":"Dashboard in a Day is designed to help you understand how to analyze your data in a rich and compelling way. This comprehensive workshop is led by a certified Microsoft Partner.","StartDate":"\/Date(1602666000000)\/","EndDate":"\/Date(1602694800000)\/","UtcStartDate":"\/Date(1602691200000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(GMT-07:00) Pacific Time (US \u0026 Canada)","Country":null,"EventsFor":["Developers","IT Professionals","Business Professionals","Government"],"PrimaryLanguage":["English"],"Product":["Power BI"],"SolutionArea":["Business Applications"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/PowerBI.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"Certain"},{"EventId":"356763","Type":"Live","Title":"Modern Devices for Modern Workforce","URL":"https://mktoevents.com/Microsoft+Event/211675/157-GQE-382","Description":"\u003cp\u003eThe \u0026lsquo;new normal\u0026rsquo; has changed the way we live, think and operate, and it has impacted every area of life. The future of work is \u0026lsquo;hybrid\u0026rsquo; but the key is to adapt to it all levels and be ready to take it on.\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eJoin us at an experiential event to learn more on what the experts think the future of work is and how could we ensure readiness with superior devices for greater productivity, seamless collaboration and unmatched security.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eAGENDA: \u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eWhat does the future of work entail?\u003c/li\u003e\n\u003cli\u003eNext-gen devices for the new normal\u003c/li\u003e\n\u003cli\u003eDevice experience\u003c/li\u003e\n\u003c/ul\u003e","StartDate":"\/Date(1602667800000)\/","EndDate":"\/Date(1602671400000)\/","UtcStartDate":"\/Date(1602667800000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(UTC) Coordinated Universal Time","Country":null,"EventsFor":["Business Professionals","IT Professionals"],"PrimaryLanguage":["English"],"Product":["Cloud Platform","Developer Tools","Enterprise solutions","Microsoft Azure","Microsoft Dynamics","Office","Microsoft 365","Server and Management","Teams","Small Business solutions","Surface","Windows"],"SolutionArea":["Modern Workplace"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/EventMultipleProducts.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"OneGDC"},{"EventId":"353376","Type":"Live","Title":"Building AI Apps With New Azure Cognitive Services Capabilities","URL":"https://note.microsoft.com/US-NOGEP-WBNR-FY21-09Sep-03-BuildingAIAppsWithNewAzureCognitiveServicesCapabilities-SRDEM36975_Registration.html","Description":"\u003cp\u003eJoin this session to learn about expanded capabilities within Azure Cognitive Services, including Form Recognizer, Custom Commands, Neural Text to Speech, and Text Analytics for Health (preview)\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eSpeaker\u003c/strong\u003e:\u003c/p\u003e\n\u003cp\u003e\u003cimg alt=\"\" src=\"https://note.microsoft.com/rs/578-UYY-044/images/DianaPhillips.jpg\" style=\"width: 120px; height: 120px;\" /\u003e\u003c/p\u003e\n\u003cp\u003eDiana Phillips\u003cbr /\u003e Senior Cloud Solution Architect\u003cbr /\u003e Microsoft\u003c/p\u003e\n\u003cp\u003eSpeaker Short Bio:\u003cbr /\u003e Professional Skills: Intelligent Cloud | Azure Services | Enterprise Productivity Solutions | Project Management | Customer Relationship Management | Sales | Web Development | SharePoint Development | Application Integration | Database Systems | Reverse Engineering | Strategic Planning | Branding and Design | Requirements Analysis | Enterprise Architectures | Service\u003c/p\u003e","StartDate":"\/Date(1602694800000)\/","EndDate":"\/Date(1602698400000)\/","UtcStartDate":"\/Date(1602694800000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(UTC) Coordinated Universal Time","Country":null,"EventsFor":["Partners"],"PrimaryLanguage":["English"],"Product":["Microsoft Azure"],"SolutionArea":["Apps \u0026 Infra"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/Azure.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"Marketo0"},{"EventId":"355054","Type":"InPerson","Title":"Dashboard In A Day - iLink Systems, Inc. - United States","URL":"https://www.microsoftevents.com//profile/form/index.cfm?PKformID=0x115205750001","Description":"Dashboard in a Day is designed to help you understand how to analyze your data in a rich and compelling way. This comprehensive workshop is led by a certified Microsoft Partner.","StartDate":"\/Date(1602752400000)\/","EndDate":"\/Date(1602781200000)\/","UtcStartDate":"\/Date(1602777600000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(GMT-07:00) Pacific Time (US \u0026 Canada)","Country":null,"EventsFor":["Developers","IT Professionals","Business Professionals","Government"],"PrimaryLanguage":["English"],"Product":["Power BI"],"SolutionArea":["Business Applications"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/PowerBI.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"Certain"},{"EventId":"355053","Type":"InPerson","Title":"Dashboard In A Day - MAQ Software - United States","URL":"https://www.microsoftevents.com//profile/form/index.cfm?PKformID=0x115202330001","Description":"Dashboard in a Day is designed to help you understand how to analyze your data in a rich and compelling way. This comprehensive workshop is led by a certified Microsoft Partner.","StartDate":"\/Date(1602752400000)\/","EndDate":"\/Date(1602781200000)\/","UtcStartDate":"\/Date(1602770400000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(GMT-05:00) Central Time (US \u0026 Canada)","Country":null,"EventsFor":["Developers","IT Professionals","Business Professionals","Government"],"PrimaryLanguage":["English"],"Product":["Power BI"],"SolutionArea":["Business Applications"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/PowerBI.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"Certain"},{"EventId":"355229","Type":"InPerson","Title":"Dashboard In A Day - Pragmatic Works - United States","URL":"https://www.microsoftevents.com//profile/form/index.cfm?PKformID=0x115290680001","Description":"Dashboard in a Day is designed to help you understand how to analyze your data in a rich and compelling way. This comprehensive workshop is led by a certified Microsoft Partner.","StartDate":"\/Date(1602752400000)\/","EndDate":"\/Date(1602781200000)\/","UtcStartDate":"\/Date(1602774000000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(GMT-06:00) Mountain Time (US \u0026 Canada)","Country":null,"EventsFor":["Developers","IT Professionals","Business Professionals","Government"],"PrimaryLanguage":["English"],"Product":["Power BI"],"SolutionArea":["Business Applications"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/PowerBI.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"Certain"},{"EventId":"355120","Type":"InPerson","Title":"RPA in a Day - Hitachi Solutions (Americas)","URL":"https://www.microsoftevents.com//profile/form/index.cfm?PKformID=0x115260280001","Description":"Possibilities are limitless, but time is not. Discover a better way to get things done across your organization through Digital and Robotic Process Automation.RPA in a Day is a beginner-level training is designed for everyone to learn automation. No matter if you are a business expert or IT developer, you will learn to develop RPA-based automation in a single day using UI flows.  RPA consists of lab exercises that guide you through building a modern end to end business RPA scenario to process incoming invoices. To learn how you can successfully build automation for your business processes, please join us for a virtual RPAIAD workshop to get started on using Power Automate for your business?s automation needs.At the end of the day, you will be able to:Use Power Automate capabilities such as UI flows and API connectors to automate a business process Take advantage of form processing models developed in AI Builder The training provides practical hands-on experience with Hitachi Solutions (Americas) who specializes in creating Power Automate solutions in a full-day of instructor-led Automation creation workshop. Simply register to start learning about building automation with RPA in a Day  In Partnership with:      \u0026nbsp;      Hitachi Solutions (Americas) Website  Hitachi Solutions (Americas) Privacy Policy         Check out Power Automate Partners and their Offers   Join the Power Automate User Community And engage with users and product teams   Or read the latest posts in our blog     ","StartDate":"\/Date(1602752400000)\/","EndDate":"\/Date(1602781200000)\/","UtcStartDate":"\/Date(1602763200000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(GMT-04:00) Eastern Time (US \u0026 Canada)","Country":null,"EventsFor":["Developers","IT Professionals","Business Professionals","Government"],"PrimaryLanguage":["English"],"Product":["PowerApps"],"SolutionArea":["Business Applications"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/PowerApps.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"Certain"},{"EventId":"355234","Type":"InPerson","Title":"Dashboard In A Day - SolidQ - United States","URL":"https://www.microsoftevents.com//profile/form/index.cfm?PKformID=0x115324310001","Description":"Dashboard in a Day is designed to help you understand how to analyze your data in a rich and compelling way. This comprehensive workshop is led by a certified Microsoft Partner.","StartDate":"\/Date(1602838800000)\/","EndDate":"\/Date(1602867600000)\/","UtcStartDate":"\/Date(1602860400000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(GMT-06:00) Mountain Time (US \u0026 Canada)","Country":null,"EventsFor":["Developers","IT Professionals","Business Professionals","Government"],"PrimaryLanguage":["English"],"Product":["Power BI"],"SolutionArea":["Business Applications"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/PowerBI.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"Certain"},{"EventId":"355230","Type":"InPerson","Title":"Dashboard In A Day - Pragmatic Works - United States","URL":"https://www.microsoftevents.com//profile/form/index.cfm?PKformID=0x115291820001","Description":"Dashboard in a Day is designed to help you understand how to analyze your data in a rich and compelling way. This comprehensive workshop is led by a certified Microsoft Partner.","StartDate":"\/Date(1602838800000)\/","EndDate":"\/Date(1602867600000)\/","UtcStartDate":"\/Date(1602856800000)\/","City":null,"Category":"Online","LocationName":null,"TimeZone":"(GMT-05:00) Central Time (US \u0026 Canada)","Country":null,"EventsFor":["Developers","IT Professionals","Business Professionals","Government"],"PrimaryLanguage":["English"],"Product":["Power BI"],"SolutionArea":["Business Applications"],"IsPublishable":true,"Icon":"https://moderneventsimages.azureedge.net/images/PowerBI.jpg","DescriptionHighlights":[],"TitleHighlights":[],"Latitude":null,"Longitude":null,"RegistrationFees":null,"LanguageCode":"en","SaaSToolName":"Certain"}]};
+    </script>
+
+<div class="main-container" ng-view></div>
+
+    <div id="footerx"></div>
+    <script type="text/template" id="myHtml2">
+        <div>
+            <br />
+                <div id="footerArea" class="uhf"  data-m='{"cN":"footerArea","cT":"Area_coreuiArea","id":"a2Body","sN":2,"aN":"Body"}'>
+                <div id="footerRegion"     data-region-key="footerregion" data-m='{"cN":"footerRegion","cT":"Region_coreui-region","id":"r1a2","sN":1,"aN":"a2"}' >
+
+    <div  id="footerUniversalFooter" data-m='{"cN":"footerUniversalFooter","cT":"Module_coreui-universalfooter","id":"m1r1a2","sN":1,"aN":"r1a2"}'  data-module-id="Category|footerRegion|coreui-region|footerUniversalFooter|coreui-universalfooter">
+        
+
+
+
+<footer id="uhf-footer" class="c-uhff context-uhf"  data-uhf-mscc-rq="false" data-footer-footprint="/MSFlagshipEvents/MSFlagshipEventsFooter, fromService: True" data-m='{"cN":"Uhf footer_cont","cT":"Container","id":"c1m1r1a2","sN":1,"aN":"m1r1a2"}'>
+        <nav class="c-uhff-nav" aria-label="Footer Resource links" data-m='{"cN":"Footer nav_cont","cT":"Container","id":"c1c1m1r1a2","sN":1,"aN":"c1m1r1a2"}'>
+			
+                <div class="c-uhff-nav-row">
+                        <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn1_cont","cT":"Container","id":"c1c1c1m1r1a2","sN":1,"aN":"c1c1m1r1a2"}'>
+                            <div class="c-heading-4">What&#39;s new</div>
+                            <ul class="c-list f-bare">
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/surface/devices/surface-duo" data-m='{"cN":"Footer_WhatsNew_SurfaceDuo_nav","id":"n1c1c1c1m1r1a2","sN":1,"aN":"c1c1c1m1r1a2"}'>Surface Duo</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/p/surface-laptop-go/94FC0BDGQ7WV" data-m='{"cN":"Footer_WhatsNew_SurfaceLaptopGo_nav","id":"n2c1c1c1m1r1a2","sN":2,"aN":"c1c1c1m1r1a2"}'>Surface Laptop Go</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/p/surface-pro-x/8QG3BMRHNWHK" data-m='{"cN":"Whatsnew_SurfaceProX_nav","id":"n3c1c1c1m1r1a2","sN":3,"aN":"c1c1c1m1r1a2"}'>Surface Pro X</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/p/surface-go-2/8PT3S2VJMDR6" data-m='{"cN":"Footer_WhatsNew_SurfaceGo_nav","id":"n4c1c1c1m1r1a2","sN":4,"aN":"c1c1c1m1r1a2"}'>Surface Go 2</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/p/surface-book-3/8XBW9G3Z71F1" data-m='{"cN":"Footer_WhatsNew_SurfaceBook3_nav","id":"n5c1c1c1m1r1a2","sN":5,"aN":"c1c1c1m1r1a2"}'>Surface Book 3</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/microsoft-365" data-m='{"cN":"Whatsnew_Microsoft365_nav","id":"n6c1c1c1m1r1a2","sN":6,"aN":"c1c1c1m1r1a2"}'>Microsoft 365</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/windows/windows-10-apps" data-m='{"cN":"Footer_WhatsNew_Windows_10_apps_nav","id":"n7c1c1c1m1r1a2","sN":7,"aN":"c1c1c1m1r1a2"}'>Windows 10 apps</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/hololens" data-m='{"cN":"Footer_WhatsNew_Hololens2_nav","id":"n8c1c1c1m1r1a2","sN":8,"aN":"c1c1c1m1r1a2"}'>HoloLens 2</a>
+                                        </li>
+
+                            </ul>
+                            
+                        </div>
+                        <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn2_cont","cT":"Container","id":"c2c1c1m1r1a2","sN":2,"aN":"c1c1m1r1a2"}'>
+                            <div class="c-heading-4">Microsoft Store</div>
+                            <ul class="c-list f-bare">
+                                        <li>
+                                            <a class="c-uhff-link" href="https://account.microsoft.com/" data-m='{"cN":"Footer_StoreandSupport_AccountProfile_nav","id":"n1c2c1c1m1r1a2","sN":1,"aN":"c2c1c1m1r1a2"}'>Account profile</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/download" data-m='{"cN":"Footer_StoreandSupport_DownloadCenter_nav","id":"n2c2c1c1m1r1a2","sN":2,"aN":"c2c1c1m1r1a2"}'>Download Center</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/p/?LinkID=824761&amp;clcid=0x409" data-m='{"cN":"Footer_StoreandSupport_SalesAndSupport_nav","id":"n3c2c1c1m1r1a2","sN":3,"aN":"c2c1c1m1r1a2"}'>Microsoft Store support</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/p/?LinkID=824764&amp;clcid=0x409" data-m='{"cN":"MicrosoftStore_ExtendedHolidayReturns_nav","id":"n4c2c1c1m1r1a2","sN":4,"aN":"c2c1c1m1r1a2"}'>Returns</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://account.microsoft.com/orders" data-m='{"cN":"Footer_StoreandSupport_OrderTracking_nav","id":"n5c2c1c1m1r1a2","sN":5,"aN":"c2c1c1m1r1a2"}'>Order tracking</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/workshops-training-and-events?icid=vl_uf_932020" data-m='{"cN":"Footer_StoreandSupport_StoreLocations_nav","id":"n6c2c1c1m1r1a2","sN":6,"aN":"c2c1c1m1r1a2"}'>Virtual workshops and training</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store_7102020" data-m='{"cN":"Footer_StoreandSupport_MicrosoftPromise_nav","id":"n7c2c1c1m1r1a2","sN":7,"aN":"c2c1c1m1r1a2"}'>Microsoft Store Promise</a>
+                                        </li>
+
+                            </ul>
+                            
+                        </div>
+                        <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn3_cont","cT":"Container","id":"c3c1c1m1r1a2","sN":3,"aN":"c1c1m1r1a2"}'>
+                            <div class="c-heading-4">Education</div>
+                            <ul class="c-list f-bare">
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/education" data-m='{"cN":"Footer_Education_MicrosoftInEducation_nav","id":"n1c3c1c1m1r1a2","sN":1,"aN":"c3c1c1m1r1a2"}'>Microsoft in education</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/education/products/office/default.aspx" data-m='{"cN":"Footer_Education_OfficeForStudents_nav","id":"n2c3c1c1m1r1a2","sN":2,"aN":"c3c1c1m1r1a2"}'>Office for students</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://products.office.com/en-us/academic/compare-office-365-education-plans" data-m='{"cN":"Footer_Education_Office365ForSchools_nav","id":"n3c3c1c1m1r1a2","sN":3,"aN":"c3c1c1m1r1a2"}'>Office 365 for schools</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/education?icid=CNavfooter_Studentsandeducation" data-m='{"cN":"Footer_Education_DealsForStudentsandParents_nav","id":"n4c3c1c1m1r1a2","sN":4,"aN":"c3c1c1m1r1a2"}'>Deals for students &amp; parents</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://azure.microsoft.com/en-us/community/education/" data-m='{"cN":"Footer_MicrosoftAzureInEducation_nav","id":"n5c3c1c1m1r1a2","sN":5,"aN":"c3c1c1m1r1a2"}'>Microsoft Azure in education</a>
+                                        </li>
+
+                            </ul>
+                            
+                        </div>
+                </div>
+                <div class="c-uhff-nav-row">
+                        <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn4_cont","cT":"Container","id":"c4c1c1m1r1a2","sN":4,"aN":"c1c1m1r1a2"}'>
+                            <div class="c-heading-4">Enterprise</div>
+                            <ul class="c-list f-bare">
+                                        <li>
+                                            <a class="c-uhff-link" href="https://azure.microsoft.com/" data-m='{"cN":"Footer_Enterprise_MicrosoftAzure_nav","id":"n1c4c1c1m1r1a2","sN":1,"aN":"c4c1c1m1r1a2"}'>Azure</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkID=808093" data-m='{"cN":"Footer_Enterprise_MicrosoftAppSource_nav","id":"n2c4c1c1m1r1a2","sN":2,"aN":"c4c1c1m1r1a2"}'>AppSource </a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/enterprise/automotive" data-m='{"cN":"Footer_Enterprise_Automotive_nav","id":"n3c4c1c1m1r1a2","sN":3,"aN":"c4c1c1m1r1a2"}'>Automotive</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/enterprise/government" data-m='{"cN":"Footer_Enterprise_Government_nav","id":"n4c4c1c1m1r1a2","sN":4,"aN":"c4c1c1m1r1a2"}'>Government</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/enterprise/health" data-m='{"cN":"Footer_Enterprise_Health_nav","id":"n5c4c1c1m1r1a2","sN":5,"aN":"c4c1c1m1r1a2"}'>Healthcare</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/enterprise/manufacturing" data-m='{"cN":"Footer_Enterprise_Manufacturing_nav","id":"n6c4c1c1m1r1a2","sN":6,"aN":"c4c1c1m1r1a2"}'>Manufacturing</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/enterprise/financial-services/banking-and-capital-markets" data-m='{"cN":"Footer_Enterprise_FinanciaServices_nav","id":"n7c4c1c1m1r1a2","sN":7,"aN":"c4c1c1m1r1a2"}'>Financial services</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/enterprise/retail-consumer-goods" data-m='{"cN":"Footer_Enterprise_Retail_nav","id":"n8c4c1c1m1r1a2","sN":8,"aN":"c4c1c1m1r1a2"}'>Retail</a>
+                                        </li>
+
+                            </ul>
+                            
+                        </div>
+                        <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn5_cont","cT":"Container","id":"c5c1c1m1r1a2","sN":5,"aN":"c1c1m1r1a2"}'>
+                            <div class="c-heading-4">Developer</div>
+                            <ul class="c-list f-bare">
+                                        <li>
+                                            <a class="c-uhff-link" href="https://visualstudio.microsoft.com/" data-m='{"cN":"Footer_Developer_MicrosoftVisualStudio_nav","id":"n1c5c1c1m1r1a2","sN":1,"aN":"c5c1c1m1r1a2"}'>Microsoft Visual Studio</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://developer.microsoft.com/en-us/windows" data-m='{"cN":"Footer_Developer_WindowsDevCenter_nav","id":"n2c5c1c1m1r1a2","sN":2,"aN":"c5c1c1m1r1a2"}'>Windows Dev Center</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://developer.microsoft.com/" data-m='{"cN":"Footer_Developer_DeveloperCenter_nav","id":"n3c5c1c1m1r1a2","sN":3,"aN":"c5c1c1m1r1a2"}'>Developer Center</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://developer.microsoft.com/en-us/store/register" data-m='{"cN":"Footer_Developer_MicrosoftDeveloperProgram_nav","id":"n4c5c1c1m1r1a2","sN":4,"aN":"c5c1c1m1r1a2"}'>Microsoft developer program</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://channel9.msdn.com/" data-m='{"cN":"Footer_Developer_Channel9_nav","id":"n5c5c1c1m1r1a2","sN":5,"aN":"c5c1c1m1r1a2"}'>Channel 9</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://developer.microsoft.com/en-us/office" data-m='{"cN":"Footer_Developer_OfficeDevCenter_nav","id":"n6c5c1c1m1r1a2","sN":6,"aN":"c5c1c1m1r1a2"}'>Office Dev Center</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/garage/" data-m='{"cN":"Microsoft Garage_nav","id":"n7c5c1c1m1r1a2","sN":7,"aN":"c5c1c1m1r1a2"}'>Microsoft Garage</a>
+                                        </li>
+
+                            </ul>
+                            
+                        </div>
+                        <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn6_cont","cT":"Container","id":"c6c1c1m1r1a2","sN":6,"aN":"c1c1m1r1a2"}'>
+                            <div class="c-heading-4">Company</div>
+                            <ul class="c-list f-bare">
+                                        <li>
+                                            <a class="c-uhff-link" href="https://careers.microsoft.com/" data-m='{"cN":"Footer_Company_Careers_nav","id":"n1c6c1c1m1r1a2","sN":1,"aN":"c6c1c1m1r1a2"}'>Careers</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/about" data-m='{"cN":"Footer_Company_AboutMicrosoft_nav","id":"n2c6c1c1m1r1a2","sN":2,"aN":"c6c1c1m1r1a2"}'>About Microsoft</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://news.microsoft.com/" data-m='{"cN":"Footer_Company_CompanyNews_nav","id":"n3c6c1c1m1r1a2","sN":3,"aN":"c6c1c1m1r1a2"}'>Company news</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://privacy.microsoft.com/en-us" data-m='{"cN":"Footer_Company_PrivacyAtMicrosoft_nav","id":"n4c6c1c1m1r1a2","sN":4,"aN":"c6c1c1m1r1a2"}'>Privacy at Microsoft</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/investor/default.aspx" data-m='{"cN":"Footer_Company_Investors_nav","id":"n5c6c1c1m1r1a2","sN":5,"aN":"c6c1c1m1r1a2"}'>Investors</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/diversity/" data-m='{"cN":"Footer_Company_DiversityAndInclusion_nav","id":"n6c6c1c1m1r1a2","sN":6,"aN":"c6c1c1m1r1a2"}'>Diversity and inclusion</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/accessibility" data-m='{"cN":"Footer_Company_Accessibility_nav","id":"n7c6c1c1m1r1a2","sN":7,"aN":"c6c1c1m1r1a2"}'>Accessibility</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/en-us/security/default.aspx" data-m='{"cN":"Footer_Company_Security_nav","id":"n8c6c1c1m1r1a2","sN":8,"aN":"c6c1c1m1r1a2"}'>Security</a>
+                                        </li>
+
+                            </ul>
+                            
+                        </div>
+                </div>
+        </nav>
+    <div class="c-uhff-base">
+                <a id="locale-picker-link" aria-label="Content Language Selector. Currently set to English (United States)" class="c-uhff-link c-uhff-lang-selector c-glyph glyph-world" href="https://www.microsoft.com/en-us/locale.aspx" data-m='{"cN":"locale_picker(US)_nav","id":"n7c1c1m1r1a2","sN":7,"aN":"c1c1m1r1a2"}'>English (United States)</a>
+
+        <nav aria-label="Microsoft corporate links">
+            <ul class="c-list f-bare" data-m='{"cN":"Corp links_cont","cT":"Container","id":"c8c1c1m1r1a2","sN":8,"aN":"c1c1m1r1a2"}'>
+                                <li  id="c-uhff-footer_sitemap">
+                    <a class="c-uhff-link" href="https://www.microsoft.com/en-us/sitemap1.aspx" data-mscc-ic="false" data-m='{"cN":"Footer_Sitemap_nav","id":"n1c8c1c1m1r1a2","sN":1,"aN":"c8c1c1m1r1a2"}'>Sitemap</a>
+                </li>
+                <li  id="c-uhff-footer_contactus">
+                    <a class="c-uhff-link" href="https://support.microsoft.com/en-us/contactus" data-mscc-ic="false" data-m='{"cN":"Footer_ContactUs_nav","id":"n2c8c1c1m1r1a2","sN":2,"aN":"c8c1c1m1r1a2"}'>Contact Microsoft</a>
+                </li>
+                <li  id="c-uhff-footer_privacyandcookies">
+                    <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-mscc-ic="false" data-m='{"cN":"Footer_PrivacyandCookies_nav","id":"n3c8c1c1m1r1a2","sN":3,"aN":"c8c1c1m1r1a2"}'>Privacy </a>
+                </li>
+                <li class=" x-hidden" id="c-uhff-footer_managecookies">
+                    <a class="c-uhff-link" href="#" data-mscc-ic="false" data-m='{"cN":"Footer_ManageCookies_nav","id":"n4c8c1c1m1r1a2","sN":4,"aN":"c8c1c1m1r1a2"}'>Manage cookies</a>
+                </li>
+                <li  id="c-uhff-footer_termsofuse">
+                    <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkID=206977" data-mscc-ic="false" data-m='{"cN":"Footer_TermsOfUse_nav","id":"n5c8c1c1m1r1a2","sN":5,"aN":"c8c1c1m1r1a2"}'>Terms of use</a>
+                </li>
+                <li  id="c-uhff-footer_trademarks">
+                    <a class="c-uhff-link" href="https://www.microsoft.com/trademarks" data-mscc-ic="false" data-m='{"cN":"Footer_Trademarks_nav","id":"n6c8c1c1m1r1a2","sN":6,"aN":"c8c1c1m1r1a2"}'>Trademarks</a>
+                </li>
+                <li  id="c-uhff-footer_safetyandeco">
+                    <a class="c-uhff-link" href="https://www.microsoft.com/en-us/devices/safety-and-eco " data-mscc-ic="false" data-m='{"cN":"Footer_SafetyAndEco_nav","id":"n7c8c1c1m1r1a2","sN":7,"aN":"c8c1c1m1r1a2"}'>Safety &amp; eco</a>
+                </li>
+                <li  id="c-uhff-footer_aboutourads">
+                    <a class="c-uhff-link" href="https://choice.microsoft.com" data-mscc-ic="false" data-m='{"cN":"Footer_AboutourAds_nav","id":"n8c8c1c1m1r1a2","sN":8,"aN":"c8c1c1m1r1a2"}'>About our ads</a>
+                </li>
+
+                <li>&#169; Microsoft 2020</li>
+                
+            </ul>
+        </nav>
+    </div>
+    
+</footer>
+
+
+
+
+    </div>
+        </div>
+
+    </div>
+
+        </div>
+    </script>
+    <script type="text/javascript">/*Remove menu from uhf*/$(".uhf-menu-item.nested-menu").remove();</script>
+    <script type="text/template" id="bingMap" src="https://sdk.virtualearth.net/api/maps/mapcontrol?branch=release">
+    </script>
+    <script type="text/javascript">
+        function loadfooter() {
+            document.getElementById("footerx").innerHTML = document.getElementById('myHtml2').innerHTML;
+            //Added Code for removing tab and mouse click on language picker
+            var x = document.getElementById("locale-picker-link");
+            x.setAttribute("style", "pointer-events:none");
+            x.setAttribute("tabindex", "-1");
+        }
+        window.onload = loadfooter;
+    </script>
+
+
+    <script type="text/javascript">
+        /* Setting the click event on body so that the setConsent would get called when the user clicks on anywhere in the page */
+        /*document.body.addEventListener('click', setConsent, true);*/
+
+        function changeCookies() {
+            var analyticsConsent = siteConsent.getConsentFor(WcpConsent.consentCategories.Analytics);
+
+            if (analyticsConsent) {
+                setAnalyticsCookies();
+            } else {
+                /* This section should remove all Adobe Analytics cookies by setting their expiration to a previous date. */
+                var decodedCookie = decodeURIComponent(document.cookie);
+                var cookieJar = decodedCookie.split(';');
+                for (var i = 0; i < cookieJar.length; i++) {
+                    var cookie = cookieJar[i];
+                    while (cookie.charAt(0) == ' ') {
+                        cookie = cookie.substring(1);
+                    }
+                    var name = cookie.split('=')[0];
+                    if (name.includes("AdobeOrg")) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+                    }
+                }
+            }
+        }
+
+
+        function setAnalyticsCookies() {
+            var bingScript = document.getElementById('bingMapScript');
+            if (bingScript.src === '') {
+                loadBingMapScript();
+            }
+            var script = document.createElement('script');
+            script.src = "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1r2ij";
+            script.type = "text/javascript";
+            document.head.appendChild(script);
+        }
+        WcpConsent.onConsentChanged(changeCookies);
+
+    </script>
+
+
+</body>
+
+</html>
